@@ -1,0 +1,62 @@
+# Laravel 基本忽略
+
+/vendor/
+/node_modules/
+
+.env
+.env.*.backup
+.env.local
+.env.testing
+.env.production
+
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+/storage/logs
+
+/public/hot
+/public/storage
+/public/mix-manifest.json
+/public/vendor
+
+# PHPStorm 與 IDE
+
+.idea/
+/*.iml
+
+# NPM & Yarn
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Composer
+# composer.lock
+
+# Laravel Mix / Vite
+
+/public/css/
+/public/js/
+/public/mix-manifest.json
+/public/hot
+
+# Filament 特殊忽略
+
+/resources/views/vendor/filament/**/*.php
+/public/vendor/filament/
+/storage/filament
+
+# 其他常見忽略
+
+.DS_Store
+Thumbs.db
+
+# database 排除
+/database/
+
+# 如果你用 Docker
+
+docker-compose.override.yml
+.env.docker
