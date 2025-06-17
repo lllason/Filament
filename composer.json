@@ -1,7 +1,7 @@
 {
     "name": "lllason/filament",
-    "type": "Lara+Filament Proj.",
-    "description": "The Laravel Framework.",
+    "type": "library",
+    "description": "A Filament integration package by lllason",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
