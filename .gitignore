@@ -18,7 +18,9 @@
 
 /public/hot
 /public/storage
-/public/mix-manifest.json
+## /public/mix-manifest.json    # ← 先別忽略，先推上去
+## /public/css/                 # ← 先別忽略，先推上去
+## /public/js/                  # ← 先別忽略，先推上去
 /public/vendor
 
 # PHPStorm 與 IDE
@@ -37,16 +39,16 @@ yarn-error.log*
 
 # Laravel Mix / Vite
 
-/public/css/
-/public/js/
-/public/mix-manifest.json
-/public/hot
+## /public/css/
+## /public/js/
+## /public/mix-manifest.json
+## /public/hot
 
 # Filament 特殊忽略
 
 /resources/views/vendor/filament/**/*.php
 /public/vendor/filament/
-/storage/filament
+## /storage/filament
 
 # 其他常見忽略
 
