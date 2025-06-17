@@ -1,4 +1,3 @@
-# Laravel 系統目錄
 /vendor/
 /node_modules/
 
@@ -8,33 +7,57 @@
 .env.testing
 .env.production
 
-# Storage log/cache（留空資料夾即可）
-# /storage/*.key ← 依實際需求選擇保留
-# /storage/framework/cache/data/
-# /storage/framework/sessions/
-# /storage/framework/views/
-# /storage/logs/
-# /storage/app/public/
+/storage/*.key
+/storage/app/public
+#/storage/framework/cache/data
+#/storage/framework/sessions
+#/storage/framework/views
+#/storage/logs
 
-# Laravel Mix / Vite 產物（初期可以先保留）：
-# /public/css/
-# /public/js/
-# /public/mix-manifest.json
+/public/hot
+/public/storage
+/public/mix-manifest.json
+/public/css/
+/public/js/
+/public/vendor
 
-# IDE
+# PHPStorm 與 IDE
+
 .idea/
-*.iml
+/*.iml
 
-# Logs
+# NPM & Yarn
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Filament 特有
+# Composer
+# composer.lock
+
+# Laravel Mix / Vite
+
+/public/css/
+/public/js/
+/public/mix-manifest.json
+/public/hot
+
+# Filament 特殊忽略
+
 /resources/views/vendor/filament/**/*.php
 /public/vendor/filament/
-/storage/filament/
+/storage/filament
 
-# Docker 可忽略
+# 其他常見忽略
+
+.DS_Store
+Thumbs.db
+
+# database 排除
+
+/database/
+
+# 如果你用 Docker
+
 docker-compose.override.yml
 .env.docker
