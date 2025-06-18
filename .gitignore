@@ -9,10 +9,10 @@
 
 /storage/*.key
 /storage/app/public
-#/storage/framework/cache/data
-#/storage/framework/sessions
-#/storage/framework/views
-#/storage/logs
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+/storage/logs
 
 /public/hot
 /public/storage
@@ -61,4 +61,3 @@ Thumbs.db
 
 docker-compose.override.yml
 .env.docker
-"/database/" 
