@@ -33,7 +33,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # Composer
-composer.lock
+# composer.lock
 
 # Laravel Mix / Vite
 
